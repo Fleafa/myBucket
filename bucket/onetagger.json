@@ -1,5 +1,6 @@
 {
-  "version": "1.7.0",
-  "url": "https://github.com/Marekkon5/onetagger/releases/download/1.7.0/OneTagger-windows.exe",
-  "bin": "OneTagger-windows.exe"
+    "version": "1.7.0",
+    "url": "https://github.com/Marekkon5/onetagger/releases/download/1.7.0/OneTagger-windows.exe",
+    "hash": "bff586f542bdca5ab7ba104787c614aba1a12d096694b41b8b1ddba62f450fc5",
+    "bin": "OneTagger-windows.exe"
 }
