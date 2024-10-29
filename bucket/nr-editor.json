@@ -1,4 +1,5 @@
 {
   "url": "https://github.com/giloushaker/nr-editor/releases/download/v1.1.153/NewRecruit-Editor-Setup-1.1.153.exe#/dl.7z",
-  "version": "v1.1.153"
+  "version": "v1.1.153",
+  "extract_dir": "app-64"
 }
