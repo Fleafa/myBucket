@@ -10,9 +10,7 @@
 			"NewRecruit Editor"
 		]
 	],
-	"checkver": {
-      "url": "github"
-    },
+	"checkver": "github",
 	"autoupdate": {
 		"url": "https://github.com/giloushaker/nr-editor/releases/download/v$version/NewRecruit-Editor-Setup-$version.exe#/dl.7z"
 	}
