@@ -10,7 +10,7 @@
       ]
   ],
   "checkver": {
-      "github": "https://github.com/giloushaker/nr-editor/releases"
+      "github": "https://github.com/giloushaker/nr-editor/releases",
       "regex": "<span.*?>([\\d.]+?)<\\\/span>"
   },
   "autoupdate": {
