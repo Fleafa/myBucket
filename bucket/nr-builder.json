@@ -11,7 +11,7 @@
   ],
   "checkver": {
       "url": "https://github.com/giloushaker/nr-builder/releases/latest",
-      "regex": "v([\\d.]+)"
+      "regex": ">v([\\d.]+?)<"
   },
   "autoupdate": {
       "url": "https://github.com/giloushaker/nr-builder/releases/download/v$version/NewRecruit-Builder-Setup-$version.exe#/dl.7z"
