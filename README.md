@@ -4,8 +4,8 @@
 
 My bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 - For [NewRecruit](https://www.newrecruit.eu/), the wargames list-building web app
-  - [NewRecruit Builder](https://github.com/giloushaker/nr-builder): desktop app
-  - [NewRecruit Editor](https://github.com/giloushaker/nr-editor): desktop data editor
+  - [NewRecruit Builder](https://www.newrecruit.eu/download/): desktop app
+  - [NewRecruit Editor](https://www.newrecruit.eu/download/): desktop data editor
 - [OneTagger](https://onetagger.github.io/) ID3 tagging software
 - [Zen Browser](https://zen-browser.app/) Firefox-based browser with vertical tabs, and other innovations.
 
