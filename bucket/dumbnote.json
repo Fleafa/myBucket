@@ -1,0 +1,18 @@
+{
+    "version": "3.4.0",
+    "url": "https://github.com/baibao577/dumbnote-page/releases/download/v3.4.0/DumbNote-Portable-3.4.0-x64.exe#/dl.7z",
+    "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "DumbNote.exe",
+            "DumbNote"
+       ]
+    ],
+	"checkver": {
+		"github": "https://github.com/baibao577/dumbnote-page"
+	},
+	"autoupdate": {
+		"url": "https://github.com/baibao577/dumbnote-page/releases/download/v$version/DumbNote-Portable-$version-x64.exe#/dl.7z"
+	}
+}
