@@ -12,7 +12,7 @@
        ]
     ],
 	"checkver": {
-		"url": "https://www.newrecruit.eu/downloads/",
+		"url": "https://www.newrecruit.eu/downloads/builder",
 		"regex": "NewRecruit-Builder-Setup-(.+?)\\.exe"
 	},
 	"autoupdate": {
