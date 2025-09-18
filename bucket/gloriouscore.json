@@ -5,7 +5,7 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/GloriousCORE%202.1.9%20Setup.zip"
+            "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/GloriousCORE_2.1.9_Setup.zip"
         }
     },
     "pre_install": [
@@ -22,12 +22,12 @@
     "checkver": {
         "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/",
         "xpath": "(/ListBucketResult/Contents)[1]/Key",
-        "regex": "\\AGloriousCORE([^ ]+) Setup\\.zip\\Z"
+        "regex": "\\AGloriousCORE([^_]+)_Setup\\.zip\\Z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/GloriousCORE%20$version%20Setup.zip"
+                "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/GloriousCORE_$version_Setup.zip"
             }
         }
     }
