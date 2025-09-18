@@ -5,13 +5,12 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/GloriousCORE_2.1.9_Setup.zip"
+            "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/GloriousCORE_2.1.9_Setup.zip",
+            "hash": "8077c02d6fe1f6a19e82d58a7d9588af12d3e0ec6641ccf5e768f58577e73613"
         }
     },
     "pre_install": [
-        "Expand-7zipArchive \"$dir/*.exe\" \"$dir\" -Removal",
-        "Remove-Item \"$dir/*\" -Exclude *.nupkg",
-        "Expand-7zipArchive \"$dir/*.nupkg\" \"$dir\" -ExtractDir 'lib/net45' -Removal"
+        "Expand-7zipArchive \"$dir/*.exe\" \"$dir\" -Removal"
     ],
     "shortcuts": [
         [
@@ -21,7 +20,6 @@
     ],
     "checkver": {
         "url": "https://gloriouscore.nyc3.digitaloceanspaces.com/CORE2/app/",
-        "xpath": "(/ListBucketResult/Contents)[1]/Key",
         "regex": "\\AGloriousCORE([^_]+)_Setup\\.zip\\Z"
     },
     "autoupdate": {
