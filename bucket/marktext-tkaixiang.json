@@ -1,0 +1,27 @@
+{
+    "version": "0.18.6",
+    "description": "A simple and elegant markdown editor",
+    "homepage": "https://github.com/Tkaixiang/marktext",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Tkaixiang/marktext/releases/download/v0.18.6/marktext-win-x64-0.18.6.zip",
+            "hash": "2e5ffe0e6e77b8400f60dc0b38bf2615e558b2defaeda5f3ba4b2dc57ee2af15"
+        }
+    },
+    "bin": "MarkText.exe",
+    "shortcuts": [
+        [
+            "MarkText.exe",
+            "Mark Text"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Tkaixiang/marktext/releases/download/v$version/marktext-win-x64-$version.zip"
+            }
+        }
+    }
+}
